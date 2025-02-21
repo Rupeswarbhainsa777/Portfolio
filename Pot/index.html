@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Personal Potfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="Rup"><span>R</span>upeswar.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header" >HOME</a></li>
+                    <li><a href="#about" >ABOUT</a></li>
+                    <li><a href="#certifictes">CERTIFICATE</a></li>
+                    <li><a href="#projects">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+
+
+                    <i class="fa-solid fa-circle-xmark"     onclick="closemenu()"         ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()  "></i>
+            </nav>
+            <div class="pictest">
+                <div class="headertext">
+                    <p>Hello,its's Me</p>
+                    <span >Rupeswar Bhainsa</span>
+                    <!-- <span id="element"></span> -->
+                    <h1>And i'm a<span>     <span id="element"></span>
+                  
+                        
+                </div>
+                
+              
+            </div>
+         
+        </div>
+
+    </div>
+    <!-- -------about--- -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col1">
+                <img src="img_20220828_141225338.jpg" alt="">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About me</h1>
+                <p>
+                    As a recent Computer Science graduate, I am equipped with robust skills in Java, HTML, CSS,JavaScript and SQL.
+                    My academic journey has honed my ability to develop dynamic web applications and efficiently manage
+                    databases. I am passionate about leveraging my technical expertise to solve real-world problems and
+                    create scalable, user-friendly solutions. Eager to join a forward-thinking team where I can
+                    contribute to impactful projects and continue my professional growth. Let's connect and explore
+                    opportunities to collaborate on innovative tech solutions!
+                </p>
+                <div class="tap-titles">
+                    <p class="taplinks active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="taplinks" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tapcontains activetap" id="skills">
+                    <ul>
+                        <li><span>Frontend</span><br>HTML,CSS,JavaScript</li>
+                        <li><span>Backend</span><br>JAVA</li>
+                        <li><span>Database</span><br>Sql</li>
+                        <li><span>Framworks</span><br>Spring,Springboot,Hibernate,Tailwind,Bootstrap</li>
+
+                </div>
+                <div class="tapcontains" id="education">
+                    <ul>
+                        <li><span>B.Tech in Computer Science and Engineering</span><br>Silicon Institute of Technology
+                            (2020 - 24)</li>
+                        <li><span>Intermediate (+2 Science)</span><br>Aims Higher Scandary School(2018 - 20)</li>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+    <!-- -------services---- -->
+    <div id="certifictes">
+        <div class="container2">
+            <h1 class="sub-title2">Certifictes</h1>
+            <div class="certifictes-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                  
+                    <h1>Java By Nptel</h1>
+                    <p>Programming in Java NPTEL (2022)
+                    </p>
+                    <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS102S5311006310021625">Show
+                        credential</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h1>Java by udemy</h1>
+                    <p>Java for Programmers Crash Course </p>
+                    <a href="https://www.udemy.com/certificate/UC-ceb9079e-558a-4a8f-9cb7-e53786497ef9/">Show
+                        credential</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-git"></i>
+                    <h1>Git by udemy</h1>
+                    <p>Git for Beginners</p>
+                    <a
+                        href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-f95cb584-dd8c-4b75-bcbe-d18aaddcbc2d.pdf">Show
+                        credential</a>
+                </div>
+
+
+            </div>
+            <div class="certifictes-list">
+                <div>
+                    <i class="fa-brands fa-docker"></i>
+                    <h1>Docker By Udemy</h1>
+                    <p>Lorem ipsum dolor  </p>
+                    <a href="">Show credential </a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h1>Data Analytics By NIIT</h1>
+                    <p>Foundation in Data Analytics</p>
+                    <a href="">Show credential</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h1>Git by udemy</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos enim </p>
+                    <a href="">Leran more</a>
+                </div> -->
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------projects------ -->
+    <div id="projects">
+        <div class="container3">
+            <h1 class="sub-title3">Projects</h1>
+            <div class="projectlist">
+                <div class="work">
+                    <img src="tic-tac-toe (1).png" alt="">
+                    <div class="layer">
+                        <h3>Tic Tac Toe </h3>
+                        <p>Tictactoe game using core java concept</p>
+                        <a href="https://github.com/Rupeswarbhainsa777/TicTacToe-Game"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="amzonpic.jpg" alt="">
+                    <div class="layer">
+                        <h3>Amazon clone</h3>
+                        <p>Amazon clone using html & css</p>
+                        <a href="https://amazon-clone1-ruddy.vercel.app/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <!-- <h1>Business-Dashboard</h1> -->
+                    <img src="dataanal.jpg" alt="">
+                    <div class="layer">
+                        <h3>Business Dashboard</h3>
+                        <p>Creating Business dashboard using power Bi</p>
+                        <a href="https://github.com/Rupeswarbhainsa777/Business-Dashboard"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="" class="btm">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------contact--------------- -->
+
+    <div id="contact">
+        <div class="conterer2">
+            <h1 class="sub-titlecon">Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+
+                       <div class="containsup">
+                        <div class="content4">
+                            
+                            <p class="mine">
+                        <img src="envelope.png" alt=""> <h3>rupeswar77666@gmail.com</h3>
+                            </p>
+    
+                        </div>
+                        <div class="contain5">
+                            <p><img src="phone-call.png" alt=""><h3>+91 8260444983</h3></p>
+                        </div>
+                       </div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/rupeswar-bhainsa-2b98b7227/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Rupeswarbhainsa777"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.instagram.com/rupes.sumit/?hl=en"><i
+                                class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                    <a href="myresume7.pdf" download="" class="cv btm">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name ="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="cv btm">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+                   <h1>Rupeswar Bhainsa</h1>
+                   <p>Bengaluru,India</p>
+                   <p>Thank You</p>
+                        <br>
+<p><i class="fa-regular fa-copyright"></i> <a href="">Rupeswar</a>,All Right Reserved</p>
+                       
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var taplinks = document.getElementsByClassName("taplinks");
+        var tapcontains = document.getElementsByClassName("tapcontains");
+
+        function opentab(tabname) {
+            for (taplink of taplinks) {
+                taplink.classList.remove("active-link");
+            }
+            for (tapcontain of tapcontains) {
+                tapcontain.classList.remove("activetap");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("activetap");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemeu.style.right="0";
+
+        }
+        function closemenu()
+        {
+            sidemeu.style.right="-200px";
+
+        }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzqcrZQnoF9RHzOihVIybXXAcp-hQVs7_YZgfvYP2BYXswiyWNL8vDvgsFqMyt1y2tMFw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(() => {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset() // Corrected from 'form.rest()' to 'form.reset()'
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Devloper',],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</body>
+
+</html>
