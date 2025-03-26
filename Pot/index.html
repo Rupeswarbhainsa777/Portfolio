@@ -19,18 +19,20 @@
     </div> -->
     <div id="header">
         <div class="container">
-            <nav>
+            <nav class="navbar">
                 <h1 class="Rup"><span>R</span>upeswar.</h1>
-                <ul id="sidemenu">
-                    <li><a href="#header" >HOME</a></li>
-                    <li><a href="#about" >ABOUT</a></li>
-                    <li><a href="#certifictes">CERTIFICATE</a></li>
-                    <li><a href="#projects">PROJECT</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-
-
-                    <i class="fa-solid fa-circle-xmark"     onclick="closemenu()"         ></i>
-                </ul>
+                 <div class="mynave">
+                    <ul class="sidemenu">
+                        <li><a href="#header" >HOME</a></li>
+                        <li><a href="#about" >ABOUT</a></li>
+                        <li><a href="#certifictes">CERTIFICATE</a></li>
+                        <li><a href="#projects">PROJECT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+    
+    
+                        <i class="fa-solid fa-circle-xmark"     onclick="closemenu()"         ></i>
+                    </ul>
+                 </div>
                 <i class="fa-solid fa-bars" onclick="openmenu()  "></i>
             </nav>
             <div class="pictest">
@@ -45,10 +47,17 @@
                 
               
             </div>
+             
+
          
         </div>
 
     </div>
+
+<!-- ------------------------techstack----------------------------- -->
+
+
+
     <!-- -------about--- -->
     <div id="about">
         <div class="row">
@@ -129,7 +138,7 @@
                 <div>
                     <i class="fa-brands fa-docker"></i>
                     <h1>Docker By Udemy</h1>
-                    <p>Lorem ipsum dolor  </p>
+                    <p>Docker(2025)</p>
                     <a href="">Show credential </a>
                 </div>
 
@@ -254,6 +263,57 @@
 
 
 
+    <script>
+        let number = document.getElementById("number1");
+        let counter = 0;
+
+        setInterval(() => {
+
+            if (counter == 65) {
+                clearInterval();
+            }
+            else {
+                counter += 1;
+                number.innerHTML = counter + "%"
+
+            }
+
+        }, 30)
+       
+        let number2 = document.getElementById("number2");
+        let counter2 = 0;
+
+        setInterval(() => {
+
+            if (counter2 == 75) {
+                clearInterval();
+            }
+            else {
+                counter2 += 1;
+                number2.innerHTML = counter2 + "%"
+
+            }
+
+        }, 30)
+
+        let number3 = document.getElementById("number3");
+        let counter3 = 0;
+
+        setInterval(() => {
+
+            if (counter3 == 85) {
+                clearInterval();
+            }
+            else {
+                counter3 += 1;
+                number3.innerHTML = counter3 + "%"
+
+            }
+
+        }, 30)
+
+
+    </script>
 
 
 
